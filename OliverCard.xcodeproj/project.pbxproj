@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98A2002A28C3883100130840 /* OliverCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A2002928C3883100130840 /* OliverCardApp.swift */; };
+		98A2002C28C3883100130840 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A2002B28C3883100130840 /* ContentView.swift */; };
+		98A2002E28C3883300130840 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98A2002D28C3883300130840 /* Assets.xcassets */; };
+		98A2003128C3883300130840 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98A2003028C3883300130840 /* Preview Assets.xcassets */; };
+		98A2003B28C3883300130840 /* OliverCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A2003A28C3883300130840 /* OliverCardTests.swift */; };
+		98A2004528C3883300130840 /* OliverCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A2004428C3883300130840 /* OliverCardUITests.swift */; };
+		98A2004728C3883300130840 /* OliverCardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A2004628C3883300130840 /* OliverCardUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98A2003728C3883300130840 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98A2001E28C3883100130840 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A2002528C3883100130840;
+			remoteInfo = OliverCard;
+		};
+		98A2004128C3883300130840 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98A2001E28C3883100130840 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A2002528C3883100130840;
+			remoteInfo = OliverCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		98A2002628C3883100130840 /* OliverCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OliverCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98A2002928C3883100130840 /* OliverCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OliverCardApp.swift; sourceTree = "<group>"; };
+		98A2002B28C3883100130840 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		98A2002D28C3883300130840 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98A2003028C3883300130840 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		98A2003628C3883300130840 /* OliverCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OliverCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98A2003A28C3883300130840 /* OliverCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OliverCardTests.swift; sourceTree = "<group>"; };
+		98A2004028C3883300130840 /* OliverCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OliverCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98A2004428C3883300130840 /* OliverCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OliverCardUITests.swift; sourceTree = "<group>"; };
+		98A2004628C3883300130840 /* OliverCardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OliverCardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98A2002328C3883100130840 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98A2003328C3883300130840 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98A2003D28C3883300130840 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98A2001D28C3883100130840 = {
+			isa = PBXGroup;
+			children = (
+				98A2002828C3883100130840 /* OliverCard */,
+				98A2003928C3883300130840 /* OliverCardTests */,
+				98A2004328C3883300130840 /* OliverCardUITests */,
+				98A2002728C3883100130840 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98A2002728C3883100130840 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98A2002628C3883100130840 /* OliverCard.app */,
+				98A2003628C3883300130840 /* OliverCardTests.xctest */,
+				98A2004028C3883300130840 /* OliverCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98A2002828C3883100130840 /* OliverCard */ = {
+			isa = PBXGroup;
+			children = (
+				98A2002928C3883100130840 /* OliverCardApp.swift */,
+				98A2002B28C3883100130840 /* ContentView.swift */,
+				98A2002D28C3883300130840 /* Assets.xcassets */,
+				98A2002F28C3883300130840 /* Preview Content */,
+			);
+			path = OliverCard;
+			sourceTree = "<group>";
+		};
+		98A2002F28C3883300130840 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				98A2003028C3883300130840 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		98A2003928C3883300130840 /* OliverCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				98A2003A28C3883300130840 /* OliverCardTests.swift */,
+			);
+			path = OliverCardTests;
+			sourceTree = "<group>";
+		};
+		98A2004328C3883300130840 /* OliverCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				98A2004428C3883300130840 /* OliverCardUITests.swift */,
+				98A2004628C3883300130840 /* OliverCardUITestsLaunchTests.swift */,
+			);
+			path = OliverCardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98A2002528C3883100130840 /* OliverCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98A2004A28C3883300130840 /* Build configuration list for PBXNativeTarget "OliverCard" */;
+			buildPhases = (
+				98A2002228C3883100130840 /* Sources */,
+				98A2002328C3883100130840 /* Frameworks */,
+				98A2002428C3883100130840 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OliverCard;
+			productName = OliverCard;
+			productReference = 98A2002628C3883100130840 /* OliverCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98A2003528C3883300130840 /* OliverCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98A2004D28C3883300130840 /* Build configuration list for PBXNativeTarget "OliverCardTests" */;
+			buildPhases = (
+				98A2003228C3883300130840 /* Sources */,
+				98A2003328C3883300130840 /* Frameworks */,
+				98A2003428C3883300130840 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98A2003828C3883300130840 /* PBXTargetDependency */,
+			);
+			name = OliverCardTests;
+			productName = OliverCardTests;
+			productReference = 98A2003628C3883300130840 /* OliverCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		98A2003F28C3883300130840 /* OliverCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98A2005028C3883300130840 /* Build configuration list for PBXNativeTarget "OliverCardUITests" */;
+			buildPhases = (
+				98A2003C28C3883300130840 /* Sources */,
+				98A2003D28C3883300130840 /* Frameworks */,
+				98A2003E28C3883300130840 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98A2004228C3883300130840 /* PBXTargetDependency */,
+			);
+			name = OliverCardUITests;
+			productName = OliverCardUITests;
+			productReference = 98A2004028C3883300130840 /* OliverCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98A2001E28C3883100130840 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					98A2002528C3883100130840 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					98A2003528C3883300130840 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 98A2002528C3883100130840;
+					};
+					98A2003F28C3883300130840 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 98A2002528C3883100130840;
+					};
+				};
+			};
+			buildConfigurationList = 98A2002128C3883100130840 /* Build configuration list for PBXProject "OliverCard" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98A2001D28C3883100130840;
+			productRefGroup = 98A2002728C3883100130840 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98A2002528C3883100130840 /* OliverCard */,
+				98A2003528C3883300130840 /* OliverCardTests */,
+				98A2003F28C3883300130840 /* OliverCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98A2002428C3883100130840 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98A2003128C3883300130840 /* Preview Assets.xcassets in Resources */,
+				98A2002E28C3883300130840 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98A2003428C3883300130840 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98A2003E28C3883300130840 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98A2002228C3883100130840 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98A2002C28C3883100130840 /* ContentView.swift in Sources */,
+				98A2002A28C3883100130840 /* OliverCardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98A2003228C3883300130840 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98A2003B28C3883300130840 /* OliverCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98A2003C28C3883300130840 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98A2004528C3883300130840 /* OliverCardUITests.swift in Sources */,
+				98A2004728C3883300130840 /* OliverCardUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98A2003828C3883300130840 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98A2002528C3883100130840 /* OliverCard */;
+			targetProxy = 98A2003728C3883300130840 /* PBXContainerItemProxy */;
+		};
+		98A2004228C3883300130840 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98A2002528C3883100130840 /* OliverCard */;
+			targetProxy = 98A2004128C3883300130840 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		98A2004828C3883300130840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		98A2004928C3883300130840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98A2004B28C3883300130840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OliverCard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oliverlauridsen.OliverCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98A2004C28C3883300130840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OliverCard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oliverlauridsen.OliverCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		98A2004E28C3883300130840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oliverlauridsen.OliverCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OliverCard.app/OliverCard";
+			};
+			name = Debug;
+		};
+		98A2004F28C3883300130840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oliverlauridsen.OliverCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OliverCard.app/OliverCard";
+			};
+			name = Release;
+		};
+		98A2005128C3883300130840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oliverlauridsen.OliverCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OliverCard;
+			};
+			name = Debug;
+		};
+		98A2005228C3883300130840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oliverlauridsen.OliverCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OliverCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98A2002128C3883100130840 /* Build configuration list for PBXProject "OliverCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98A2004828C3883300130840 /* Debug */,
+				98A2004928C3883300130840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98A2004A28C3883300130840 /* Build configuration list for PBXNativeTarget "OliverCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98A2004B28C3883300130840 /* Debug */,
+				98A2004C28C3883300130840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98A2004D28C3883300130840 /* Build configuration list for PBXNativeTarget "OliverCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98A2004E28C3883300130840 /* Debug */,
+				98A2004F28C3883300130840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98A2005028C3883300130840 /* Build configuration list for PBXNativeTarget "OliverCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98A2005128C3883300130840 /* Debug */,
+				98A2005228C3883300130840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98A2001E28C3883100130840 /* Project object */;
+}
