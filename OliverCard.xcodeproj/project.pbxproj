@@ -14,6 +14,8 @@
 		98A2003B28C3883300130840 /* OliverCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A2003A28C3883300130840 /* OliverCardTests.swift */; };
 		98A2004528C3883300130840 /* OliverCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A2004428C3883300130840 /* OliverCardUITests.swift */; };
 		98A2004728C3883300130840 /* OliverCardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A2004628C3883300130840 /* OliverCardUITestsLaunchTests.swift */; };
+		98A2005528C38B3700130840 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98A2005428C38B3700130840 /* Pacifico-Regular.ttf */; };
+		98A2005828C392D500130840 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A2005728C392D500130840 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,9 @@
 		98A2004028C3883300130840 /* OliverCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OliverCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98A2004428C3883300130840 /* OliverCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OliverCardUITests.swift; sourceTree = "<group>"; };
 		98A2004628C3883300130840 /* OliverCardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OliverCardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		98A2005428C38B3700130840 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pacifico-Regular.ttf"; path = "../../../../../../Downloads/Pacifico/Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		98A2005628C38C5500130840 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		98A2005728C392D500130840 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +99,11 @@
 		98A2002828C3883100130840 /* OliverCard */ = {
 			isa = PBXGroup;
 			children = (
+				98A2005628C38C5500130840 /* Info.plist */,
+				98A2005328C38B2300130840 /* fonts */,
 				98A2002928C3883100130840 /* OliverCardApp.swift */,
 				98A2002B28C3883100130840 /* ContentView.swift */,
+				98A2005728C392D500130840 /* InfoView.swift */,
 				98A2002D28C3883300130840 /* Assets.xcassets */,
 				98A2002F28C3883300130840 /* Preview Content */,
 			);
@@ -125,6 +133,14 @@
 				98A2004628C3883300130840 /* OliverCardUITestsLaunchTests.swift */,
 			);
 			path = OliverCardUITests;
+			sourceTree = "<group>";
+		};
+		98A2005328C38B2300130840 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				98A2005428C38B3700130840 /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98A2005528C38B3700130840 /* Pacifico-Regular.ttf in Resources */,
 				98A2003128C3883300130840 /* Preview Assets.xcassets in Resources */,
 				98A2002E28C3883300130840 /* Assets.xcassets in Resources */,
 			);
@@ -258,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98A2002C28C3883100130840 /* ContentView.swift in Sources */,
+				98A2005828C392D500130840 /* InfoView.swift in Sources */,
 				98A2002A28C3883100130840 /* OliverCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +437,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"OliverCard/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OliverCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -447,6 +466,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"OliverCard/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OliverCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
